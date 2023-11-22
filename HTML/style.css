@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,red,white,yellow);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container{
+    width: 40rem;
+    height: 25rem;
+    background-color: black;
+    align-items: center;
+    border-radius: 2rem;
+   
+}
+.container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
+span h1{
+    position: relative;
+    left: -5rem;
+}
+.body{
+    color: white;
+    margin: 4rem 3rem;
+    word-spacing: 0.5rem;
+    
+}
+.body span{
+    position: relative;
+    top: -5rem;
+    left: 28rem;
+    margin: 0;
+    padding: 0;
+    word-spacing: 0rem;
+}
+.body span #date{
+    position: relative;
+    top: -1.5rem;
+}
